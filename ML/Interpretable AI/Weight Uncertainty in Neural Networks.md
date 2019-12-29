@@ -29,4 +29,3 @@ Then this paper use Monte Carlo gradients to update the $\theta $.
 - The method perform very good.
 - Interestingly, randomly deleting up to **98%** posterior weights doesn't have severe impact on the performance of neutral network. 
 - **What can we do after knowing the posterior distribution of weights? How does the distribution contribute to understanding the network?**
-
