@@ -76,7 +76,7 @@ It is easy to see that the solution of optimization associated with expected imp
 
 $$KG_n(x) := E_n[\mu^*_{n+1} - \mu_n^* | x_{n+1}=x]$$,
 
-where the $\mu^*_{n+1}$ is the maximum of the expectation of posterior of $f$ at $x'$ . The expectation comes since we need to **update the posterior after observing  $f(x_{n+1})$**, but it is a random variable.  The Knowledge Gradient Method is to maximize the Knowledge-gradient function. 
+where the $\mu ^*_{n+1}$ is the maximum of the expectation of posterior of $f$ at $x'$ . The expectation comes since we need to **update the posterior after observing**  $f(x_{n+1})$, but it is a random variable.  The Knowledge Gradient Method is to maximize the Knowledge-gradient function. 
 
 One way to estimate KG acquisition function is simulation.  The simulating part is to observe $y_{n+1}$. Then we update posterior function based on the new observation. The last step is to get the $\mu^*_{n+1}$ and calculate the difference w.r.t. $\mu^*_n$. Averaging differences leads to $KG_n(x)$.
 
